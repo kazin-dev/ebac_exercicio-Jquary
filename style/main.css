@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(156, 162, 163);
+    
+}
+
+.container{
+    display: block;
+    padding: 12px;
+    margin-top: 240px;
+    margin-left: 500px;
+}
+
+.container form{
+    display: flex;
+    margin-top: 35px;
+    
+}
+
+.container input{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: bisque;
+    border: none;
+}
+
+.list{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#new-list li{
+    margin-top: 20px;
+    font-style: italic;
+    list-style: none;
+}
+
+
+button{
+    margin-left: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.remove{
+    background-color: rgb(230, 14, 14);
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+.tarefa {
+    color: #000;
+    font-size: 22px;
+}
